@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(https://www.lavanguardia.com/files/og_thumbnail/uploads/2018/12/25/5fa45215acda5.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: aliceblue;
+}
+
+.contenedor {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contador {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  padding: 30px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+#dias,
+#horas,
+#minutos,
+#segundos {
+  font-size: 70px;
+}
