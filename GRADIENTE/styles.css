@@ -1,0 +1,30 @@
+.toRight {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to right, red, yellow);
+}
+
+.toBottom {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to right, orange, green);
+}
+
+.gradientRadial {
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(purple, white);
+}
+
+.linealRepetido {
+  width: 200px;
+  height: 200px;
+  background: repeating-linear-gradient(black, green);
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
